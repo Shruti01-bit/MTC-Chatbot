@@ -1,6 +1,40 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+Chat interface with user & assistant messages
+Light/Dark mode toggle button
+Clear chat functionality
+Typing Indicator Animation
+Show animated ellipsis or "Typing..." while awaiting API response.
+Simple UI
+
+# History
+ Chat history stored in browser (localStorage)
+ Support session persistence on reload 
+
+# Clear Chat Button
+ Allow users to reset the conversation history
+ Submit message on Enter or via send button
+ Handle multiline with Shift+Enter
+
+# API Integration
+ Gemini API by Google
+ https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent
+
+# Tech Stack
+ React
+ Typescript
+ CSS
+
+ # Install Dependencies
+ 
+```bash
+npm install
+
+# run frontend
+npm run dev
+ 
+
 
 Currently, two official plugins are available:
 
